@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/fotohalaman"
+        android:layout_width="425dp"
+        android:layout_height="256dp"
+        android:layout_marginTop="64dp"
+        android:contentDescription="@string/fotohalaman"
+        android:src="@drawable/fotocucisepatu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/judul"
+        />
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:text="@string/shiny_spokat"
+        android:textColor="#6200EE"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/hubungikami"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/ic_baseline_call_24"
+        app:layout_constraintBottom_toTopOf="@+id/texthubungikami"
+        app:layout_constraintEnd_toStartOf="@+id/tentangkami"
+        app:layout_constraintStart_toEndOf="@+id/sosialmedia"
+        app:layout_constraintTop_toBottomOf="@+id/fotohalaman"
+        app:layout_constraintVertical_bias="0.6"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/lokasi"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/ic_launcher_lokasi_foreground"
+        app:layout_constraintBottom_toBottomOf="@+id/textlokasi"
+        app:layout_constraintStart_toEndOf="@+id/hubungikami"
+        app:layout_constraintTop_toBottomOf="@+id/fotohalaman"
+        app:layout_constraintVertical_bias="0.107"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/list"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/ic_launcher_list_foreground"
+        app:layout_constraintBottom_toTopOf="@+id/textlistharga"
+        app:layout_constraintEnd_toStartOf="@+id/hubungikami"
+        app:layout_constraintTop_toBottomOf="@+id/fotohalaman"
+        app:layout_constraintVertical_bias="0.25"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/sosialmedia"
+        android:layout_width="190dp"
+        android:layout_height="56dp"
+        android:text="@string/sosial_media"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tentangkami"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textlistharga"
+        app:layout_constraintVertical_bias="0.956"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/tentangkami"
+        android:layout_width="190dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/tentang_kami"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textlokasi"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textlistharga"
+        android:layout_width="75dp"
+        android:layout_height="19dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="@string/textlistharga"
+        android:textColor="#433878"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/texthubungikami"
+        app:layout_constraintEnd_toEndOf="@+id/list"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/list" />
+
+    <TextView
+        android:id="@+id/texthubungikami"
+        android:layout_width="73dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="128dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="@string/hubungi_kami"
+        android:textColor="#433878"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textlokasi"
+        app:layout_constraintStart_toEndOf="@+id/textlistharga"
+        app:layout_constraintTop_toBottomOf="@+id/fotohalaman"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <TextView
+        android:id="@+id/textlokasi"
+        android:layout_width="74dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="164dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="@string/textlokasi"
+        android:textColor="#433878"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/texthubungikami"
+        app:layout_constraintEnd_toEndOf="@+id/lokasi"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/lokasi"
+        app:layout_constraintTop_toBottomOf="@+id/fotohalaman"
+        app:layout_constraintVertical_bias="0.259" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

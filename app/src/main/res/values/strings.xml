@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">shiny spokat</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="shiny_spokat">Shiny Spokat</string>
+    <string name="sosial_media">Sosial media</string>
+    <string name="tentang_kami">Tentang Kami</string>
+    <string name="fotohalaman">fotohalaman</string>
+    <string name="textlokasi">LOKASI</string>
+    <string name="texthubungikami">HUBUNGI KAMI</string>
+    <string name="textlistharga">LIST HARGA</string>
+    <string name="hubungi_kami">HUBUNGI KAMI</string>
+    <string name="list_harga">List Harga</string>
+    <string name="todo">TODO</string>
+    <string name="judul">Hubungi Kami</string>
+    <string name="alamatstore">Jl. Cikoronjo, Sindangmulya, Cibarusah, Kab. Bekasi 17340</string>
+
+    <string name="text1img1">Deep Cleaning Start from IDR 70K</string>
+    <string name="text2img1">Metode deep cleaning adalah metode pembersihan sepatu hingga ke bagian paling dalam</string>
+    <string name="text3img1">Durasi pengerjaan: 1&#8211;4 hari</string>
+
+    <string name="text1img2">Fast Clean Start from IDR 30K</string>
+    <string name="text2img2">Metode fast cleaning adalah metode pembersihan sepatu pada bagian luar seperti bagian upper dan midsole. Metode ini lebih terjangkau jika dibandingkan dengan deep cleaning.</string>
+    <string name="text3img2">Durasi pengerjaan: 1&#8211;3 hari</string>
+
+    <string name="text1img3">Fast Cleaning Start from IDR 75K</string>
+    <string name="text2img3">Metode whitening digunakan untuk memutihkan kembali sepatu kamu yang memiliki warna putih namun sudah memudar dan berubah warna.</string>
+    <string name="text3img3">Durasi pengerjaan: 7&#8211;14 hari</string>
+
+    <string name="text1img4">Unyellowing Start from IDR 70K</string>
+    <string name="text2img4">metode menghilangkan noda kekuningan yang diakibatkan oleh menuanya rubber pada sepatu. Biasanya hal ini terjadi karena oksidasi pada material sehingga material berubah warna menjadi kekuningan.</string>
+    <string name="text3img4">Durasi pengerjaan: 7&#8211;14 hari</string>
+
+    <string name="alamat">Gratis jemput dan antar</string>
+    <string name="alamat1">Layanan antar jemput gratis radius 5 KM dari lokasi store kami</string>
+    <string name="chat_admin">CHAT ADMIN</string>
+    <string name="textjudul">Hubungi Kami</string>
+    <string name="todo1">TODO</string>
+
+
+</resources>
