@@ -9,8 +9,8 @@ import android.os.Bundle;
 import android.text.method.MovementMethod;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 import org.w3c.dom.Text;
-
 import java.security.PublicKey;
 
 
@@ -24,14 +24,11 @@ public class MainActivity extends AppCompatActivity {
     public Button btnwa;
 
 
-
-
-
-
         @Override
         protected void onCreate (Bundle savedInstanceState){
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_main);
+
 
             lokasi = findViewById(R.id.lokasi);
             lokasi.setOnClickListener(new View.OnClickListener() {
