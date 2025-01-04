@@ -36,5 +36,11 @@
     <string name="textjudul">Hubungi Kami</string>
     <string name="todo1">TODO</string>
 
+    <string name="text1">Meet us on social media</string>
+    <string name="todoo">TODO</string>
+    <string name="todooo">TODO</string>
+    <string name="todoooo">TODO</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
 
 </resources>

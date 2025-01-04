@@ -10,6 +10,9 @@ import android.text.method.MovementMethod;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import com.example.shinyspokat.databinding.ActivityMainBinding;
+
 import org.w3c.dom.Text;
 import java.security.PublicKey;
 
@@ -23,11 +26,16 @@ public class MainActivity extends AppCompatActivity {
     public Button tentangkami;
     public Button btnwa;
 
+    private ActivityMainBinding binding;
+
+
 
         @Override
         protected void onCreate (Bundle savedInstanceState){
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_main);
+
+
 
 
             lokasi = findViewById(R.id.lokasi);

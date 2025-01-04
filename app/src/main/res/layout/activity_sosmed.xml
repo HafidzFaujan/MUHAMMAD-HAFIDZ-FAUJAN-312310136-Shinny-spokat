@@ -1,9 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".sosmed">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="410dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="250dp"
+        android:gravity="center"
+        android:text="@string/text1"
+        android:textColor="#6200EE"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/btnig"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/iconig"
+        android:clickable="true"
+        android:contentDescription="@string/todoo"
+        android:focusable="true"
+        tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+
+
+    <ImageView
+        android:id="@+id/btnfb"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/iconfb"
+        android:focusable="true"
+        android:clickable="true"
+        android:contentDescription="@string/todoooo" />
+    <ImageView
+        android:id="@+id/btntt"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/icontt"
+        android:focusable="true"
+        android:clickable="true"
+        android:contentDescription="@string/todooo" />
+
+
+
+
+
+</RelativeLayout>
