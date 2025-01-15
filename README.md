@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/ef9f8b34-455c-4ad8-9483-7bab50cbb4bb)
+![image](https://github.com/user-attachments/assets/052eff8c-eaa8-40a7-96e8-3b138d53fb99)![image](https://github.com/user-attachments/assets/ef9f8b34-455c-4ad8-9483-7bab50cbb4bb)
 Halaman utama
 Sebuah tampilan utama yang pertama muncul ketika membuka aplikasi Memiliki 6 buah
 button dan tampilan sepatu menggunakan imageview, 6 button diantara lain:
@@ -17,3 +17,10 @@ kami dan bisa difollow oleh customer
 ![Screenshot_20250104_170015_shiny spokat](https://github.com/user-attachments/assets/ab5e09e7-4b3d-499b-8bb3-cd2344fe7cc4)
 ![Screenshot_20250104_170021_shiny spokat](https://github.com/user-attachments/assets/e9e56b96-99fd-4b90-a342-5438c76e0d00)
 ![Screenshot_20250104_170028_shiny spokat](https://github.com/user-attachments/assets/932b5efa-2755-4650-ae99-c6bb7a246ec0)
+![image](https://github.com/user-attachments/assets/c6a0547d-dd7d-4fe5-a168-bf84d6602609)
+
+link preview aplikasi via short youtube:
+
+https://youtube.com/shorts/SSqK_QUC6fY?si=jqZF-zIRD5Qqkqwn
+
+
