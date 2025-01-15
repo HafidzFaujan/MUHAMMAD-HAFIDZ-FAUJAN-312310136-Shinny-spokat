@@ -21,31 +21,32 @@ public class MainActivity extends AppCompatActivity {
 
     public Button listharga;
     public Button hubungikami;
-    public Button lokasi;
     public Button sosmed;
     public Button tentangkami;
     public Button btnwa;
+    public Button lokasiii;
 
-    private ActivityMainBinding binding;
+
 
 
 
         @Override
-        protected void onCreate (Bundle savedInstanceState){
+        protected void onCreate (Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_main);
 
-
-
-
-            lokasi = findViewById(R.id.lokasi);
+            Button lokasi = findViewById(R.id.lokasi);
             lokasi.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent(MainActivity.this, lokasi.class);
-                    startActivity(intent);
+                Intent intent = new Intent(MainActivity.this, lokasi.class);
+                startActivity(intent);
                 }
             });
+
+
+
+
 
             hubungikami = findViewById(R.id.hubungikami);
             hubungikami.setOnClickListener(new View.OnClickListener() {

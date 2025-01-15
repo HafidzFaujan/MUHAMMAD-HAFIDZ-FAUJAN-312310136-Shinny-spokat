@@ -25,7 +25,7 @@ public class hubungikami extends AppCompatActivity {
         });
     }
     private void sendWhatsAppMessage(String message) {
-        String phoneNumber = "6285814722480"; // Ganti dengan nomor telepon yang ingin Anda kirim pesan
+        String phoneNumber = "6285814722480";
         if (message != null && !message.isEmpty()) {
             String url = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + Uri.encode(message);
             Intent intent = new Intent(Intent.ACTION_VIEW);

@@ -36,11 +36,15 @@
     <string name="textjudul">Hubungi Kami</string>
     <string name="todo1">TODO</string>
 
+    <string name="kami">Tentang Shiny Spokat</string>
+
     <string name="text1">Meet us on social media</string>
     <string name="todoo">TODO</string>
     <string name="todooo">TODO</string>
     <string name="todoooo">TODO</string>
     <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="text">Shiny Spokat merupakan outlet pencucian sepatu yang awal mula berdiri pada tahun 2021,Inspirasi untuk mendirikan Shiny Spokat muncul ketika melihat semakin banyaknya komunitas pecinta sepatu di kota yang membutuhkan layanan perawatan sepatu yang profesional dan terpercaya. Banyak di antara mereka memiliki koleksi sepatu yang bernilai tinggi, baik secara finansial maupun emosional. </string>
 
 
 </resources>
